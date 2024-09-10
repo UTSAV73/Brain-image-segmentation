@@ -8,6 +8,10 @@ from skimage.filters import gaussian
 
 #Output of your Unet/DDUnet mask goes in here
 mask = cv2.imread('C:\\Users\\Utsav\\OneDrive\\Desktop\\research\\diy\\test_Dataset\\train_masks\\10_label.tif', cv2.IMREAD_GRAYSCALE)
+save_output_path='C:\\Users\\Utsav\\OneDrive\\Desktop\\research\\diy\\test_Dataset\\train\\final.jpg'
+segmentation_mask = (segmentation > 0).astype(np.uint8) * 255
+cv2.imwrite(save_output_path, segmentation_mask)
+print("Successfully saved output")
 
 #Debugging
 if mask is None:
