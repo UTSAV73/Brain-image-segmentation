@@ -62,7 +62,6 @@ def iterate_snake(x, y, a, b, fx, fy, gamma=0.1, n_iters=10, return_all=True):
 
 
 def main(image_path, mask_path):
-   k
     image = io.imread(image_path, as_gray=True)
     mask = io.imread(mask_path, as_gray=True)
     # mask = (mask > 0).astype(np.uint8)  
