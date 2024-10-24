@@ -71,7 +71,7 @@ classifier/
     
 ## Inference
 Segementation of brain cancer:
-<img width="474" alt="image" src="https://github.com/user-attachments/assets/268f71d4-f089-4b88-8b65-8362768b5343">
+![image](https://github.com/user-attachments/assets/268f71d4-f089-4b88-8b65-8362768b5343)
 
 Segemention of Subtantia Nigra:
 ![image](https://github.com/user-attachments/assets/6bd40394-f576-4275-9db7-9c2bfb960e48)
